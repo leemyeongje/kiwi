@@ -1,17 +1,22 @@
-# Quartz v5
+# leemyeongje.github.io
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+개인 디지털 가든 / 노트 사이트입니다. [Quartz v5](https://quartz.jzhao.xyz/)로 만들고 GitHub Pages로 배포합니다.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+🔗 **https://leemyeongje.github.io**
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+## 개발
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+```bash
+npm ci                 # 의존성 설치
+npx quartz build --serve   # 로컬 미리보기 (http://localhost:8080)
+```
 
-## Sponsors
+콘텐츠는 `content/` 디렉터리의 Markdown 파일로 작성합니다.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## 배포
+
+`main` 브랜치에 push하면 `.github/workflows/deploy.yaml` 워크플로우가 사이트를 빌드해 GitHub Pages에 자동 배포합니다.
+
+## 크레딧
+
+[Quartz](https://github.com/jackyzha0/quartz) by [Jacky Zhao](https://jzhao.xyz/) 기반으로 제작되었습니다.
