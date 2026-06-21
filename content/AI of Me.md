@@ -1,2 +1,0 @@
-- [[GPT of Me]]
-- [[Claude of Me]]
